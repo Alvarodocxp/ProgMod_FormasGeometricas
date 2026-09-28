@@ -32,8 +32,8 @@ public class Circulo extends FormaGeometrica{
      */
     public Circulo(double raio){
         super("CIRCULO");
-        if(raio <= 0)
-            raio = 0.1;
+        if(raio <= 1d)
+            raio = 1d;
         this.raio = raio;
     }
 
