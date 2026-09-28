@@ -48,7 +48,7 @@ public abstract class FormaGeometrica {
     public abstract double perimetro();
 
     public boolean temAreaMaiorQue(FormaGeometrica outra){
-        //TODO
+        return area() > outra.area();
     }
 
     /**
