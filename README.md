@@ -1,18 +1,13 @@
-## Getting Started
+# Formas Geométricas █ ⬜ ◣ ⬤
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+João está aprendendo __geometria plana__. Uma de suas dificuldades é **comparar os tamanhos de formas geométricas muito diferentes**. 
 
-## Folder Structure
+Como ele também está aprendendo a programar, ele deseja criar um pequeno sistema que o ajude no estudo e na compreensão das formas geométricas em um plano cartesiano. 
 
-The workspace contains two folders by default, where:
+## Requisitos
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+João criou o seguinte conjunto de requisitos:
+  - O usuário pode **armazenar formas geométricas diversas** em **conjuntos de tamanho escolhido**;
+  - Para cada forma, podem ser calculadas **área** e **perímetro**;
+  - As formas podem ser **comparadas por área** e ele gostaria de **identificar a maior delas**;
+  - Como há uma grande diversidade de formas, João decidiu **iniciar o sistema** com **quadrados**, **retângulos**, **triângulos retângulos** e **círculos**.
